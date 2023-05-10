@@ -1,0 +1,74 @@
+{
+  "properties": {
+    "colorField": {
+      "type": "color",
+      "description": "This is a color field"
+    },
+    "dateField": {
+      "type": "date"
+    },
+    "dateTimeField": {
+      "type": "datetime-local"
+    },
+    "emailField": {
+      "type": "email"
+    },
+    "fileField": {
+      "type": "file"
+    },
+    "imageField": {
+      "type": "image"
+    },
+    "numberField": {
+      "type": "number"
+    },
+    "radioField": {
+      "type": "radio",
+      "options": [
+        {
+          "name": "Option 1",
+          "value": "option1"
+        },
+        {
+          "name": "Option 2",
+          "value": "option2"
+        }
+      ]
+    },
+    "rangeField": {
+      "type": "range",
+      "min": 0,
+      "max": 100
+    },
+    "telField": {
+      "type": "tel"
+    },
+    "textField": {
+      "type": "text"
+    },
+    "timeField": {
+      "type": "time"
+    },
+    "url": {
+      "type": "url"
+    },
+    "select": {
+      "type": "select",
+      "options": [
+        {
+          "name": "Option 1",
+          "value": "option1"
+        },
+        {
+          "name": "Option 2",
+          "value": "option2"
+        }
+      ]
+    },
+    "textarea": {
+      "type": "textarea"
+    }
+  },
+  "propertiesToList": ["textField", "emailField"],
+  "required": ["textField"]
+}

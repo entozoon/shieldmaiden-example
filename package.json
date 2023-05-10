@@ -1,0 +1,17 @@
+{
+  "name": "shieldmaiden-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all -p start:*",
+    "start:ui": "npm explore shieldmaiden -- npm run start:ui",
+    "start:api": "shieldmaiden-api"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5"
+  }
+}

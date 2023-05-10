@@ -1,0 +1,19 @@
+[
+  {
+    "colorField": "#00ff00",
+    "dateField": "2022-01-01",
+    "dateTimeField": "2022-01-01T00:00:00.000Z",
+    "emailField": "foo@bar.com",
+    "fileField": "foo",
+    "imageField": "foo",
+    "numberField": 12,
+    "radioField": "option1",
+    "rangeField": 40,
+    "telField": "345678",
+    "textField": "text stuff",
+    "timeField": "13:00",
+    "url": "http://foo.com",
+    "select": "option1",
+    "textarea": "more text stuff"
+  }
+]
